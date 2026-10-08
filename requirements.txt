@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+# Pinned: the .pkl models in models/ were saved with scikit-learn 1.9.0.
+scikit-learn==1.9.0
+# Needed to unpickle models/xgboost_model.pkl (the "XGBoost" option in the app).
+xgboost>=2.0
